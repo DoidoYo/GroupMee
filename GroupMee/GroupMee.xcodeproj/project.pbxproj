@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD31ED691EA514B200EB65BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD31ED681EA514B200EB65BA /* AppDelegate.swift */; };
+		BD31ED6B1EA514B200EB65BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD31ED6A1EA514B200EB65BA /* ViewController.swift */; };
+		BD31ED6E1EA514B200EB65BA /* GroupMee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD31ED6C1EA514B200EB65BA /* GroupMee.xcdatamodeld */; };
+		BD31ED701EA514B200EB65BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD31ED6F1EA514B200EB65BA /* Assets.xcassets */; };
+		BD31ED731EA514B200EB65BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD31ED711EA514B200EB65BA /* Main.storyboard */; };
+		BD31ED7E1EA514B200EB65BA /* GroupMeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD31ED7D1EA514B200EB65BA /* GroupMeeTests.swift */; };
+		BD31ED891EA514B200EB65BA /* GroupMeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD31ED881EA514B200EB65BA /* GroupMeeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD31ED7A1EA514B200EB65BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD31ED5D1EA514B200EB65BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD31ED641EA514B200EB65BA;
+			remoteInfo = GroupMee;
+		};
+		BD31ED851EA514B200EB65BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD31ED5D1EA514B200EB65BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD31ED641EA514B200EB65BA;
+			remoteInfo = GroupMee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD31ED651EA514B200EB65BA /* GroupMee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupMee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD31ED681EA514B200EB65BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD31ED6A1EA514B200EB65BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD31ED6D1EA514B200EB65BA /* GroupMee.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GroupMee.xcdatamodel; sourceTree = "<group>"; };
+		BD31ED6F1EA514B200EB65BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD31ED721EA514B200EB65BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD31ED741EA514B200EB65BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD31ED791EA514B200EB65BA /* GroupMeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroupMeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD31ED7D1EA514B200EB65BA /* GroupMeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupMeeTests.swift; sourceTree = "<group>"; };
+		BD31ED7F1EA514B200EB65BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD31ED841EA514B200EB65BA /* GroupMeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroupMeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD31ED881EA514B200EB65BA /* GroupMeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupMeeUITests.swift; sourceTree = "<group>"; };
+		BD31ED8A1EA514B200EB65BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD31ED621EA514B200EB65BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD31ED761EA514B200EB65BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD31ED811EA514B200EB65BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD31ED5C1EA514B200EB65BA = {
+			isa = PBXGroup;
+			children = (
+				BD31ED671EA514B200EB65BA /* GroupMee */,
+				BD31ED7C1EA514B200EB65BA /* GroupMeeTests */,
+				BD31ED871EA514B200EB65BA /* GroupMeeUITests */,
+				BD31ED661EA514B200EB65BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD31ED661EA514B200EB65BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD31ED651EA514B200EB65BA /* GroupMee.app */,
+				BD31ED791EA514B200EB65BA /* GroupMeeTests.xctest */,
+				BD31ED841EA514B200EB65BA /* GroupMeeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD31ED671EA514B200EB65BA /* GroupMee */ = {
+			isa = PBXGroup;
+			children = (
+				BD31ED681EA514B200EB65BA /* AppDelegate.swift */,
+				BD31ED6A1EA514B200EB65BA /* ViewController.swift */,
+				BD31ED6F1EA514B200EB65BA /* Assets.xcassets */,
+				BD31ED711EA514B200EB65BA /* Main.storyboard */,
+				BD31ED741EA514B200EB65BA /* Info.plist */,
+				BD31ED6C1EA514B200EB65BA /* GroupMee.xcdatamodeld */,
+			);
+			path = GroupMee;
+			sourceTree = "<group>";
+		};
+		BD31ED7C1EA514B200EB65BA /* GroupMeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD31ED7D1EA514B200EB65BA /* GroupMeeTests.swift */,
+				BD31ED7F1EA514B200EB65BA /* Info.plist */,
+			);
+			path = GroupMeeTests;
+			sourceTree = "<group>";
+		};
+		BD31ED871EA514B200EB65BA /* GroupMeeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD31ED881EA514B200EB65BA /* GroupMeeUITests.swift */,
+				BD31ED8A1EA514B200EB65BA /* Info.plist */,
+			);
+			path = GroupMeeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD31ED641EA514B200EB65BA /* GroupMee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD31ED8D1EA514B200EB65BA /* Build configuration list for PBXNativeTarget "GroupMee" */;
+			buildPhases = (
+				BD31ED611EA514B200EB65BA /* Sources */,
+				BD31ED621EA514B200EB65BA /* Frameworks */,
+				BD31ED631EA514B200EB65BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GroupMee;
+			productName = GroupMee;
+			productReference = BD31ED651EA514B200EB65BA /* GroupMee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD31ED781EA514B200EB65BA /* GroupMeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD31ED901EA514B200EB65BA /* Build configuration list for PBXNativeTarget "GroupMeeTests" */;
+			buildPhases = (
+				BD31ED751EA514B200EB65BA /* Sources */,
+				BD31ED761EA514B200EB65BA /* Frameworks */,
+				BD31ED771EA514B200EB65BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD31ED7B1EA514B200EB65BA /* PBXTargetDependency */,
+			);
+			name = GroupMeeTests;
+			productName = GroupMeeTests;
+			productReference = BD31ED791EA514B200EB65BA /* GroupMeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD31ED831EA514B200EB65BA /* GroupMeeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD31ED931EA514B200EB65BA /* Build configuration list for PBXNativeTarget "GroupMeeUITests" */;
+			buildPhases = (
+				BD31ED801EA514B200EB65BA /* Sources */,
+				BD31ED811EA514B200EB65BA /* Frameworks */,
+				BD31ED821EA514B200EB65BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD31ED861EA514B200EB65BA /* PBXTargetDependency */,
+			);
+			name = GroupMeeUITests;
+			productName = GroupMeeUITests;
+			productReference = BD31ED841EA514B200EB65BA /* GroupMeeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD31ED5D1EA514B200EB65BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Gabriel Fernandes";
+				TargetAttributes = {
+					BD31ED641EA514B200EB65BA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EZGAYLTBHH;
+						ProvisioningStyle = Automatic;
+					};
+					BD31ED781EA514B200EB65BA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EZGAYLTBHH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD31ED641EA514B200EB65BA;
+					};
+					BD31ED831EA514B200EB65BA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EZGAYLTBHH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD31ED641EA514B200EB65BA;
+					};
+				};
+			};
+			buildConfigurationList = BD31ED601EA514B200EB65BA /* Build configuration list for PBXProject "GroupMee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD31ED5C1EA514B200EB65BA;
+			productRefGroup = BD31ED661EA514B200EB65BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD31ED641EA514B200EB65BA /* GroupMee */,
+				BD31ED781EA514B200EB65BA /* GroupMeeTests */,
+				BD31ED831EA514B200EB65BA /* GroupMeeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD31ED631EA514B200EB65BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD31ED701EA514B200EB65BA /* Assets.xcassets in Resources */,
+				BD31ED731EA514B200EB65BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD31ED771EA514B200EB65BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD31ED821EA514B200EB65BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD31ED611EA514B200EB65BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD31ED6B1EA514B200EB65BA /* ViewController.swift in Sources */,
+				BD31ED6E1EA514B200EB65BA /* GroupMee.xcdatamodeld in Sources */,
+				BD31ED691EA514B200EB65BA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD31ED751EA514B200EB65BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD31ED7E1EA514B200EB65BA /* GroupMeeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD31ED801EA514B200EB65BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD31ED891EA514B200EB65BA /* GroupMeeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD31ED7B1EA514B200EB65BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD31ED641EA514B200EB65BA /* GroupMee */;
+			targetProxy = BD31ED7A1EA514B200EB65BA /* PBXContainerItemProxy */;
+		};
+		BD31ED861EA514B200EB65BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD31ED641EA514B200EB65BA /* GroupMee */;
+			targetProxy = BD31ED851EA514B200EB65BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD31ED711EA514B200EB65BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD31ED721EA514B200EB65BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD31ED8B1EA514B200EB65BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD31ED8C1EA514B200EB65BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		BD31ED8E1EA514B200EB65BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EZGAYLTBHH;
+				INFOPLIST_FILE = GroupMee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GF.GroupMee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BD31ED8F1EA514B200EB65BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EZGAYLTBHH;
+				INFOPLIST_FILE = GroupMee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GF.GroupMee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BD31ED911EA514B200EB65BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EZGAYLTBHH;
+				INFOPLIST_FILE = GroupMeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GF.GroupMeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GroupMee.app/Contents/MacOS/GroupMee";
+			};
+			name = Debug;
+		};
+		BD31ED921EA514B200EB65BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EZGAYLTBHH;
+				INFOPLIST_FILE = GroupMeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GF.GroupMeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GroupMee.app/Contents/MacOS/GroupMee";
+			};
+			name = Release;
+		};
+		BD31ED941EA514B200EB65BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EZGAYLTBHH;
+				INFOPLIST_FILE = GroupMeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GF.GroupMeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GroupMee;
+			};
+			name = Debug;
+		};
+		BD31ED951EA514B200EB65BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EZGAYLTBHH;
+				INFOPLIST_FILE = GroupMeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GF.GroupMeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GroupMee;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD31ED601EA514B200EB65BA /* Build configuration list for PBXProject "GroupMee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD31ED8B1EA514B200EB65BA /* Debug */,
+				BD31ED8C1EA514B200EB65BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD31ED8D1EA514B200EB65BA /* Build configuration list for PBXNativeTarget "GroupMee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD31ED8E1EA514B200EB65BA /* Debug */,
+				BD31ED8F1EA514B200EB65BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD31ED901EA514B200EB65BA /* Build configuration list for PBXNativeTarget "GroupMeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD31ED911EA514B200EB65BA /* Debug */,
+				BD31ED921EA514B200EB65BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD31ED931EA514B200EB65BA /* Build configuration list for PBXNativeTarget "GroupMeeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD31ED941EA514B200EB65BA /* Debug */,
+				BD31ED951EA514B200EB65BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BD31ED6C1EA514B200EB65BA /* GroupMee.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD31ED6D1EA514B200EB65BA /* GroupMee.xcdatamodel */,
+			);
+			currentVersion = BD31ED6D1EA514B200EB65BA /* GroupMee.xcdatamodel */;
+			path = GroupMee.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BD31ED5D1EA514B200EB65BA /* Project object */;
+}
