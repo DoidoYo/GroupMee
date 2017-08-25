@@ -1,0 +1,19 @@
+PODS:
+  - FayeSwift (0.3.0):
+    - Starscream (~> 2.0)
+    - SwiftyJSON (~> 3.1)
+  - Starscream (2.0.3)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - FayeSwift
+  - Starscream (~> 2.0.3)
+
+SPEC CHECKSUMS:
+  FayeSwift: caedafbeda17a91107f85edc7ad031ce71917412
+  Starscream: 3fdd5c277e57cca6b5c406d274e3f34a7c88f2ce
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 21c1a039742967a01848367905628e9c5198b06b
+
+COCOAPODS: 1.2.0

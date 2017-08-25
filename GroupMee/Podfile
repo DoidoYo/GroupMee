@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'GroupMee' do
+use_frameworks!
+
+pod 'Starscream', '~> 2.0.3'
+
+  # Pods for GroupMee
+pod "FayeSwift"
+
+  target 'GroupMeeTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'GroupMeeUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+end
+

@@ -1,0 +1,6 @@
+framework module Pods_GroupMee {
+  umbrella header "Pods-GroupMee-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		334EFAFD9689CF88BD1974BC /* Pods_GroupMeeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56767A4C661E53C1C10D73B /* Pods_GroupMeeUITests.framework */; };
+		A8479C94E4F7E14EE36802F6 /* Pods_GroupMeeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2146D48B9A675F8E412D5FE5 /* Pods_GroupMeeTests.framework */; };
 		BD31ED691EA514B200EB65BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD31ED681EA514B200EB65BA /* AppDelegate.swift */; };
 		BD31ED6B1EA514B200EB65BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD31ED6A1EA514B200EB65BA /* ViewController.swift */; };
 		BD31ED6E1EA514B200EB65BA /* GroupMee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD31ED6C1EA514B200EB65BA /* GroupMee.xcdatamodeld */; };
@@ -14,6 +16,20 @@
 		BD31ED731EA514B200EB65BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD31ED711EA514B200EB65BA /* Main.storyboard */; };
 		BD31ED7E1EA514B200EB65BA /* GroupMeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD31ED7D1EA514B200EB65BA /* GroupMeeTests.swift */; };
 		BD31ED891EA514B200EB65BA /* GroupMeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD31ED881EA514B200EB65BA /* GroupMeeUITests.swift */; };
+		BD80E5791EB16171006967C3 /* KeychainSwiftDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD80E5781EB16171006967C3 /* KeychainSwiftDistrib.swift */; };
+		BD80E57D1EB16BDF006967C3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD80E57C1EB16BDF006967C3 /* LoginViewController.swift */; };
+		BD8C5BFF1EB2C0D00003B49E /* GroupsMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8C5BFE1EB2C0D00003B49E /* GroupsMessages.swift */; };
+		BD8C5C011EB2D9320003B49E /* Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8C5C001EB2D9320003B49E /* Preview.swift */; };
+		BD8C5C031EB2D9800003B49E /* Attachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8C5C021EB2D9800003B49E /* Attachment.swift */; };
+		BDBD95111EB12B9D009ED20A /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBD95101EB12B9D009ED20A /* SplitViewController.swift */; };
+		BDBD95161EB132F9009ED20A /* MainWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBD95151EB132F9009ED20A /* MainWindow.swift */; };
+		BDC0DDF61EBCE3F800D41AB3 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC0DDF51EBCE3F800D41AB3 /* Message.swift */; };
+		BDD02BD71EB26C80002F620F /* GroupMeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD02BD61EB26C80002F620F /* GroupMeClient.swift */; };
+		BDD02BD91EB2744B002F620F /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD02BD81EB2744B002F620F /* GroupViewController.swift */; };
+		BDD02BDB1EB27453002F620F /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD02BDA1EB27453002F620F /* ChatViewController.swift */; };
+		BDD02BDD1EB281BE002F620F /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD02BDC1EB281BE002F620F /* Group.swift */; };
+		BDD02BDF1EB28FC6002F620F /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD02BDE1EB28FC6002F620F /* Member.swift */; };
+		E7F57BDF59F6AF7A7144B025 /* Pods_GroupMee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5782CC6CA8030D7E4658C0E /* Pods_GroupMee.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A67EBF129565B8AAFE6FA3B /* Pods-GroupMee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroupMee.release.xcconfig"; path = "Pods/Target Support Files/Pods-GroupMee/Pods-GroupMee.release.xcconfig"; sourceTree = "<group>"; };
+		1F025B63EE9A0B6BA23EFF4B /* Pods-GroupMeeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroupMeeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GroupMeeTests/Pods-GroupMeeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2146D48B9A675F8E412D5FE5 /* Pods_GroupMeeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroupMeeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B93E7934EDD4D29B62F4175 /* Pods-GroupMeeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroupMeeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GroupMeeTests/Pods-GroupMeeTests.release.xcconfig"; sourceTree = "<group>"; };
+		82E4A74EACB63E019B038C64 /* Pods-GroupMeeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroupMeeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GroupMeeUITests/Pods-GroupMeeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		96CF971617DB1198C334650B /* Pods-GroupMeeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroupMeeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GroupMeeUITests/Pods-GroupMeeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B5782CC6CA8030D7E4658C0E /* Pods_GroupMee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroupMee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD31ED651EA514B200EB65BA /* GroupMee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupMee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD31ED681EA514B200EB65BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD31ED6A1EA514B200EB65BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +70,21 @@
 		BD31ED841EA514B200EB65BA /* GroupMeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroupMeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD31ED881EA514B200EB65BA /* GroupMeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupMeeUITests.swift; sourceTree = "<group>"; };
 		BD31ED8A1EA514B200EB65BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD80E5781EB16171006967C3 /* KeychainSwiftDistrib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainSwiftDistrib.swift; sourceTree = "<group>"; };
+		BD80E57C1EB16BDF006967C3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BD8C5BFE1EB2C0D00003B49E /* GroupsMessages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupsMessages.swift; sourceTree = "<group>"; };
+		BD8C5C001EB2D9320003B49E /* Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preview.swift; sourceTree = "<group>"; };
+		BD8C5C021EB2D9800003B49E /* Attachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attachment.swift; sourceTree = "<group>"; };
+		BDBD95101EB12B9D009ED20A /* SplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
+		BDBD95151EB132F9009ED20A /* MainWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindow.swift; sourceTree = "<group>"; };
+		BDC0DDF51EBCE3F800D41AB3 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		BDD02BD61EB26C80002F620F /* GroupMeClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupMeClient.swift; sourceTree = "<group>"; };
+		BDD02BD81EB2744B002F620F /* GroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
+		BDD02BDA1EB27453002F620F /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		BDD02BDC1EB281BE002F620F /* Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		BDD02BDE1EB28FC6002F620F /* Member.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
+		D56767A4C661E53C1C10D73B /* Pods_GroupMeeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroupMeeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE43D84E3ADFF063B7477B1F /* Pods-GroupMee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroupMee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GroupMee/Pods-GroupMee.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7F57BDF59F6AF7A7144B025 /* Pods_GroupMee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8479C94E4F7E14EE36802F6 /* Pods_GroupMeeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +108,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				334EFAFD9689CF88BD1974BC /* Pods_GroupMeeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FDEFA4DC3B7BE4CE5F033EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5782CC6CA8030D7E4658C0E /* Pods_GroupMee.framework */,
+				2146D48B9A675F8E412D5FE5 /* Pods_GroupMeeTests.framework */,
+				D56767A4C661E53C1C10D73B /* Pods_GroupMeeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		935B5734EB4EACDFC56E0101 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE43D84E3ADFF063B7477B1F /* Pods-GroupMee.debug.xcconfig */,
+				0A67EBF129565B8AAFE6FA3B /* Pods-GroupMee.release.xcconfig */,
+				1F025B63EE9A0B6BA23EFF4B /* Pods-GroupMeeTests.debug.xcconfig */,
+				2B93E7934EDD4D29B62F4175 /* Pods-GroupMeeTests.release.xcconfig */,
+				82E4A74EACB63E019B038C64 /* Pods-GroupMeeUITests.debug.xcconfig */,
+				96CF971617DB1198C334650B /* Pods-GroupMeeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BD31ED5C1EA514B200EB65BA = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +145,8 @@
 				BD31ED7C1EA514B200EB65BA /* GroupMeeTests */,
 				BD31ED871EA514B200EB65BA /* GroupMeeUITests */,
 				BD31ED661EA514B200EB65BA /* Products */,
+				935B5734EB4EACDFC56E0101 /* Pods */,
+				3FDEFA4DC3B7BE4CE5F033EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,7 +166,11 @@
 				BD31ED681EA514B200EB65BA /* AppDelegate.swift */,
 				BD31ED6A1EA514B200EB65BA /* ViewController.swift */,
 				BD31ED6F1EA514B200EB65BA /* Assets.xcassets */,
+				BD80E5781EB16171006967C3 /* KeychainSwiftDistrib.swift */,
 				BD31ED711EA514B200EB65BA /* Main.storyboard */,
+				BDD02BD41EB2681C002F620F /* Model */,
+				BDBD95121EB12BD5009ED20A /* Controller */,
+				BDD02BD51EB26829002F620F /* Helpers */,
 				BD31ED741EA514B200EB65BA /* Info.plist */,
 				BD31ED6C1EA514B200EB65BA /* GroupMee.xcdatamodeld */,
 			);
@@ -125,6 +195,39 @@
 			path = GroupMeeUITests;
 			sourceTree = "<group>";
 		};
+		BDBD95121EB12BD5009ED20A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BDBD95151EB132F9009ED20A /* MainWindow.swift */,
+				BDBD95101EB12B9D009ED20A /* SplitViewController.swift */,
+				BDD02BD81EB2744B002F620F /* GroupViewController.swift */,
+				BDD02BDA1EB27453002F620F /* ChatViewController.swift */,
+				BD80E57C1EB16BDF006967C3 /* LoginViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BDD02BD41EB2681C002F620F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BDD02BDC1EB281BE002F620F /* Group.swift */,
+				BDD02BDE1EB28FC6002F620F /* Member.swift */,
+				BD8C5BFE1EB2C0D00003B49E /* GroupsMessages.swift */,
+				BD8C5C001EB2D9320003B49E /* Preview.swift */,
+				BD8C5C021EB2D9800003B49E /* Attachment.swift */,
+				BDC0DDF51EBCE3F800D41AB3 /* Message.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BDD02BD51EB26829002F620F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BDD02BD61EB26C80002F620F /* GroupMeClient.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +235,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD31ED8D1EA514B200EB65BA /* Build configuration list for PBXNativeTarget "GroupMee" */;
 			buildPhases = (
+				554BA8B2D7574E885FBB11FB /* [CP] Check Pods Manifest.lock */,
 				BD31ED611EA514B200EB65BA /* Sources */,
 				BD31ED621EA514B200EB65BA /* Frameworks */,
 				BD31ED631EA514B200EB65BA /* Resources */,
+				71DC3C2F0EC92EF15AE7AD56 /* [CP] Embed Pods Frameworks */,
+				5EFAE3FBFDCEDD5404968B51 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +255,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD31ED901EA514B200EB65BA /* Build configuration list for PBXNativeTarget "GroupMeeTests" */;
 			buildPhases = (
+				BBFE0034646D5A9BAAEE790A /* [CP] Check Pods Manifest.lock */,
 				BD31ED751EA514B200EB65BA /* Sources */,
 				BD31ED761EA514B200EB65BA /* Frameworks */,
 				BD31ED771EA514B200EB65BA /* Resources */,
+				94F3796BC3321D66A76C1018 /* [CP] Embed Pods Frameworks */,
+				405535460DFE9F2C298BCE03 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +276,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD31ED931EA514B200EB65BA /* Build configuration list for PBXNativeTarget "GroupMeeUITests" */;
 			buildPhases = (
+				CF10B1C4F5E22D537D361C1E /* [CP] Check Pods Manifest.lock */,
 				BD31ED801EA514B200EB65BA /* Sources */,
 				BD31ED811EA514B200EB65BA /* Frameworks */,
 				BD31ED821EA514B200EB65BA /* Resources */,
+				BBA89CD5EB7503CC5BD2B24F /* [CP] Embed Pods Frameworks */,
+				A10C5D1298CAC82255FC6116 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,14 +368,165 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		405535460DFE9F2C298BCE03 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GroupMeeTests/Pods-GroupMeeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		554BA8B2D7574E885FBB11FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5EFAE3FBFDCEDD5404968B51 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GroupMee/Pods-GroupMee-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71DC3C2F0EC92EF15AE7AD56 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GroupMee/Pods-GroupMee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94F3796BC3321D66A76C1018 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GroupMeeTests/Pods-GroupMeeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A10C5D1298CAC82255FC6116 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GroupMeeUITests/Pods-GroupMeeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBA89CD5EB7503CC5BD2B24F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GroupMeeUITests/Pods-GroupMeeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBFE0034646D5A9BAAEE790A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF10B1C4F5E22D537D361C1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BD31ED611EA514B200EB65BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDD02BDD1EB281BE002F620F /* Group.swift in Sources */,
+				BDC0DDF61EBCE3F800D41AB3 /* Message.swift in Sources */,
+				BDD02BD91EB2744B002F620F /* GroupViewController.swift in Sources */,
+				BD80E57D1EB16BDF006967C3 /* LoginViewController.swift in Sources */,
 				BD31ED6B1EA514B200EB65BA /* ViewController.swift in Sources */,
+				BD8C5C031EB2D9800003B49E /* Attachment.swift in Sources */,
+				BD8C5C011EB2D9320003B49E /* Preview.swift in Sources */,
 				BD31ED6E1EA514B200EB65BA /* GroupMee.xcdatamodeld in Sources */,
+				BDBD95161EB132F9009ED20A /* MainWindow.swift in Sources */,
+				BD8C5BFF1EB2C0D00003B49E /* GroupsMessages.swift in Sources */,
+				BDD02BD71EB26C80002F620F /* GroupMeClient.swift in Sources */,
+				BDD02BDF1EB28FC6002F620F /* Member.swift in Sources */,
 				BD31ED691EA514B200EB65BA /* AppDelegate.swift in Sources */,
+				BDBD95111EB12B9D009ED20A /* SplitViewController.swift in Sources */,
+				BDD02BDB1EB27453002F620F /* ChatViewController.swift in Sources */,
+				BD80E5791EB16171006967C3 /* KeychainSwiftDistrib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +665,7 @@
 		};
 		BD31ED8E1EA514B200EB65BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE43D84E3ADFF063B7477B1F /* Pods-GroupMee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -416,6 +680,7 @@
 		};
 		BD31ED8F1EA514B200EB65BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A67EBF129565B8AAFE6FA3B /* Pods-GroupMee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -430,6 +695,7 @@
 		};
 		BD31ED911EA514B200EB65BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F025B63EE9A0B6BA23EFF4B /* Pods-GroupMeeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -446,6 +712,7 @@
 		};
 		BD31ED921EA514B200EB65BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B93E7934EDD4D29B62F4175 /* Pods-GroupMeeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +729,7 @@
 		};
 		BD31ED941EA514B200EB65BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82E4A74EACB63E019B038C64 /* Pods-GroupMeeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -477,6 +745,7 @@
 		};
 		BD31ED951EA514B200EB65BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96CF971617DB1198C334650B /* Pods-GroupMeeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -509,6 +778,7 @@
 				BD31ED8F1EA514B200EB65BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD31ED901EA514B200EB65BA /* Build configuration list for PBXNativeTarget "GroupMeeTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +787,7 @@
 				BD31ED921EA514B200EB65BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD31ED931EA514B200EB65BA /* Build configuration list for PBXNativeTarget "GroupMeeUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +796,7 @@
 				BD31ED951EA514B200EB65BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
